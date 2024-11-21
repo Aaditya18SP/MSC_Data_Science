@@ -1,0 +1,8 @@
+Goal
+1. To find the factors affecting the price of the car
+2. Factors affecting the mileage of the car
+3. Luxury car analysis
+4. Normal car analysis
+
+
+1. sales analysis - what cars are selling. 
