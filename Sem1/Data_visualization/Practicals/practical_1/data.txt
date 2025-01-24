@@ -1,0 +1,5 @@
+  name  age blood_group
+0  ABC   18          A+
+1  DEF   32          B+
+2  GHI   65          O+
+3  JKL    7         AB+
