@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<data>
+  <row>
+    <index>0</index>
+    <name>ABC</name>
+    <age>18</age>
+    <blood_group>A+</blood_group>
+  </row>
+  <row>
+    <index>1</index>
+    <name>DEF</name>
+    <age>32</age>
+    <blood_group>B+</blood_group>
+  </row>
+  <row>
+    <index>2</index>
+    <name>GHI</name>
+    <age>65</age>
+    <blood_group>O+</blood_group>
+  </row>
+  <row>
+    <index>3</index>
+    <name>JKL</name>
+    <age>7</age>
+    <blood_group>AB+</blood_group>
+  </row>
+</data>
