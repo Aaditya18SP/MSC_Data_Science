@@ -1,0 +1,31 @@
+The Hamming network, named after Richard Hamming, is a type of artificial neural network primarily used for pattern recognition tasks, particularly in binary pattern classification. It operates based on the concept of Hamming distance, which measures the dissimilarity between two binary vectors.
+
+In most of the neural networks using unsupervised learning, it is essential to compute the distance and perform comparisons. This kind of network is Hamming network, where for every given input vectors, it would be clustered into different groups. Following are some important features of Hamming Networks −
+
+    Lippmann started working on Hamming networks in 1987.
+
+    It is a single layer network.
+
+    The inputs can be either binary {0, 1} of bipolar {-1, 1}.
+
+    The weights of the net are calculated by the exemplar vectors.
+
+    It is a fixed weight network which means the weights would remain the same even during training.
+
+Max Net
+
+This is also a fixed weight network, which serves as a subnet for selecting the node having the highest input. All the nodes are fully interconnected and there exists symmetrical weights in all these weighted interconnections.
+
+Here's how a Hamming network typically works:
+
+    Input Layer: The input layer consists of neurons, each corresponding to an element (or feature) of the input pattern.
+
+    Exemplar Vectors: The network is trained or initialized with a set of exemplar vectors, which represent the prototype or ideal patterns for each class or category that the network is intended to recognize.
+
+    Hamming Distance Calculation: When presented with a new input pattern, the network computes the Hamming distance between the input pattern and each exemplar vector. The Hamming distance is simply the number of positions at which the corresponding elements of the two vectors are different.
+
+    Classification: The input pattern is classified into the category associated with the exemplar vector having the smallest Hamming distance. In other words, the input pattern is assigned to the class whose prototype pattern is most similar to it in terms of binary dissimilarity.
+
+The Hamming network is particularly useful when dealing with binary data or when the feature space can be represented as binary vectors. It's relatively simple and computationally efficient, making it suitable for certain types of pattern recognition tasks, especially when dealing with noise-resistant binary patterns.
+
+One of its limitations is that it assumes equal importance for all features in the input pattern, which may not always be appropriate for more complex datasets. Additionally, it relies heavily on the choice and representation of exemplar vectors, which can significantly impact its performance.
