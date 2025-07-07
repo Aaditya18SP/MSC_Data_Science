@@ -1,0 +1,13 @@
+names:
+- negative
+- positive
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: axialmri
+  url: https://universe.roboflow.com/phamumbaiuni/axialmri/dataset/1
+  version: 1
+  workspace: phamumbaiuni
+test: ../test/images
+train: axialMri-1/train/images
+val: axialMri-1/valid/images
